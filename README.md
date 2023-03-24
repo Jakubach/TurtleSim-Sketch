@@ -140,15 +140,19 @@ Following are the concepts used for this project:
 
 To run the project on your local system, follow the procedure:
 
-- Download the packages - `sketch`, `image_thresholding`, and `dynamic-reconfigure-noetic-devel`
-- Copy these packages to your ROS workspace i.e. `~/ROS_ws/src/`
-- Build the workspace
-  - `$ cd ~/ROS_ws/` 
-  - `$ catkin_make`
+```console
+cd ~/catkin_ws/src
+git clone https://github.com/Jakubach/TurtleSim-Sketch.git
+cd ~/catkin_ws
+catkin_make
+source devel/setup.bash
+```
 
-- Open new terminal and source the ROS workspace - `source ~/ROS_ws/devel/setup.bash`
 
-- Run the command - `$ roslaunch sketch sketcher.launch`
+```console
+roslaunch sketch sketcher.launch
+```
+
 
 - This command will open turtlesim and GUI for this project
 
