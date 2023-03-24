@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
 Program to get image capture information - path and capture type in a node
 Author: Shilpaj Bhalerao
